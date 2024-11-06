@@ -10,12 +10,7 @@ import org.testng.annotations.AfterSuite;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.BeforeSuite;
-import org.testng.annotations.Parameters;
 
-import com.aventstack.extentreports.ExtentReports;
-import com.aventstack.extentreports.ExtentTest;
-import com.aventstack.extentreports.reporter.ExtentSparkReporter;
-import com.aventstack.extentreports.reporter.configuration.Theme;
 import com.comcast.crm.generic.databaseUtility.DatabaseUtility;
 import com.comcast.crm.generic.fileUtility.ExcelUtility;
 import com.comcast.crm.generic.fileUtility.FileUtility;

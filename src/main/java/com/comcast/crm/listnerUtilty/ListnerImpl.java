@@ -29,7 +29,6 @@ public class ListnerImpl extends BaseClass implements ITestListener, ISuiteListe
 		// TODO Auto-generated method stub
 		ISuiteListener.super.onStart(suite);
 		System.out.println("Report Configuration");
-		
 		String timestamp = new SimpleDateFormat("yyyy_MM_dd_HH_mm_ss").format(new Date());
 
 		spark = new ExtentSparkReporter("./AdvanceReports/report"+timestamp+".html");
